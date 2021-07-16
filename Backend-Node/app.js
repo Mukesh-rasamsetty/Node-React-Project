@@ -58,7 +58,7 @@ app.use((error, re, res, next) => {
     });
 })
 
-mongoose.connect('mongodb+srv://mukesh-rasamsetty-mongodb:mukesh-rasamsetty@cluster0.0iayk.mongodb.net/NodeProject?retryWrites=true&w=majority')
+mongoose.connect('Use your MongoDB connection url')
     .then(result => {
         app.listen(8080);
     })
